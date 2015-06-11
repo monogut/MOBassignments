@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="8Do-e2-bL1">
+            <objects>
+                <viewController id="Dpy-Kb-dmM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1Ll-65-YtH"/>
+                        <viewControllerLayoutGuide type="bottom" id="vpU-4b-asr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZMb-g0-p5b">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uQw-Pp-sCg">
+                                <rect key="frame" x="16" y="10" width="53" height="30"/>
+                                <state key="normal" title="top left ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Se4-xW-Yry">
+                                <rect key="frame" x="16" y="530" width="75" height="30"/>
+                                <state key="normal" title="bottom left">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M9q-JT-TnI">
+                                <rect key="frame" x="222" y="524" width="85" height="30"/>
+                                <state key="normal" title="bottom right">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mVj-ol-fz8">
+                                <rect key="frame" x="40" y="191" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TF6-KI-aeE">
+                                <rect key="frame" x="246" y="10" width="58" height="30"/>
+                                <state key="normal" title="top right">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uQw-Pp-sCg" firstAttribute="leading" secondItem="ZMb-g0-p5b" secondAttribute="leadingMargin" id="AQ7-Kp-WYs"/>
+                            <constraint firstItem="TF6-KI-aeE" firstAttribute="trailing" secondItem="ZMb-g0-p5b" secondAttribute="trailingMargin" id="FCc-RH-fyR"/>
+                            <constraint firstItem="uQw-Pp-sCg" firstAttribute="top" secondItem="1Ll-65-YtH" secondAttribute="bottom" constant="-10" id="LBh-DS-oav"/>
+                            <constraint firstItem="vpU-4b-asr" firstAttribute="top" secondItem="M9q-JT-TnI" secondAttribute="bottom" constant="14" id="Ss7-QQ-T7e"/>
+                            <constraint firstItem="vpU-4b-asr" firstAttribute="top" secondItem="Se4-xW-Yry" secondAttribute="bottom" constant="8" id="VJb-Yq-xaP"/>
+                            <constraint firstItem="Se4-xW-Yry" firstAttribute="leading" secondItem="ZMb-g0-p5b" secondAttribute="leadingMargin" id="WOy-JG-d6l"/>
+                            <constraint firstItem="M9q-JT-TnI" firstAttribute="leading" secondItem="ZMb-g0-p5b" secondAttribute="leadingMargin" constant="206" id="Xpy-6o-7yG"/>
+                            <constraint firstItem="TF6-KI-aeE" firstAttribute="top" secondItem="1Ll-65-YtH" secondAttribute="bottom" constant="-10" id="a2Q-EB-Heo"/>
+                            <constraint firstItem="vpU-4b-asr" firstAttribute="top" secondItem="M9q-JT-TnI" secondAttribute="bottom" constant="14" id="yd2-ma-1Fr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="M9q-JT-TnI" secondAttribute="trailing" constant="-3" id="yp4-oH-ZpK"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JyL-6f-z44" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="217" y="331"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
