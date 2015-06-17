@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var displayLabel: UILabel!
     
-    displayLabel.text = "0"
+    var sum = 0
 
     
     @IBAction func pressadd(sender: AnyObject) {
@@ -23,14 +23,19 @@ class ViewController: UIViewController {
         
         var numberentered = textadd1.text!.toInt()!
         
-        var newentry = displayLabel.text!.toInt()!
         
+        sum = numberentered + sum
         
-        var add = newentry + numberentered
+        //var add =  + numberentered
         
          textadd1.text = ""
        
-      displayLabel.text = String(add)
+      
+        
+        
+        
+        
+        displayLabel.text = String(sum)
     }
     
     

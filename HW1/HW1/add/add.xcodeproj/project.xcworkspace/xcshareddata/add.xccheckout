@@ -14,11 +14,11 @@
 		<string>https://github.com/monogut/MOBassignments.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>HW1/add/add.xcodeproj</string>
+	<string>HW1/HW1/add/add.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1CCF6E84F2DC83E1864F76F9FFCB287F1EC430AD</key>
-		<string>../../../..</string>
+		<string>../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/monogut/MOBassignments.git</string>

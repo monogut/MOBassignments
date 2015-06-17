@@ -56,8 +56,8 @@ class ViewController: UIViewController {
         if (ageinput2 > 18 && ageinput2 < 21){
             label.text = "you can drive and you can vote"
         }
-        if ageinput2 > 21{
-            "you can drive, drink, and vote, but not all at once"
+        if ageinput2 >= 21{
+            label.text =  "you can drive, drink, and vote, but not all at once"
         }
     }
 }

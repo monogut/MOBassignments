@@ -14,7 +14,7 @@
 		005F6A1F1B29A7EF00E205F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005F6A1D1B29A7EF00E205F8 /* LaunchScreen.xib */; };
 		005F6A2B1B29A7EF00E205F8 /* HW1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005F6A2A1B29A7EF00E205F8 /* HW1Tests.swift */; };
 		00C2B40B1B2EE5D900FA25AA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B40A1B2EE5D900FA25AA /* SecondViewController.swift */; };
-		00C2B40D1B2EE74D00FA25AA /* 3rdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C2B40C1B2EE74D00FA25AA /* 3rdViewController.swift */; };
+		00DF4FD41B31F0C7003F054B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF4FD31B31F0C7003F054B /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,7 @@
 		005F6A291B29A7EF00E205F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		005F6A2A1B29A7EF00E205F8 /* HW1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW1Tests.swift; sourceTree = "<group>"; };
 		00C2B40A1B2EE5D900FA25AA /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		00C2B40C1B2EE74D00FA25AA /* 3rdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 3rdViewController.swift; sourceTree = "<group>"; };
+		00DF4FD31B31F0C7003F054B /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +63,7 @@
 		005F6A061B29A7EF00E205F8 = {
 			isa = PBXGroup;
 			children = (
+				00DF4FD31B31F0C7003F054B /* ThirdViewController.swift */,
 				005F6A111B29A7EF00E205F8 /* HW1 */,
 				005F6A271B29A7EF00E205F8 /* HW1Tests */,
 				005F6A101B29A7EF00E205F8 /* Products */,
@@ -84,7 +85,6 @@
 				005F6A141B29A7EF00E205F8 /* AppDelegate.swift */,
 				005F6A161B29A7EF00E205F8 /* ViewController.swift */,
 				00C2B40A1B2EE5D900FA25AA /* SecondViewController.swift */,
-				00C2B40C1B2EE74D00FA25AA /* 3rdViewController.swift */,
 				005F6A181B29A7EF00E205F8 /* Main.storyboard */,
 				005F6A1B1B29A7EF00E205F8 /* Images.xcassets */,
 				005F6A1D1B29A7EF00E205F8 /* LaunchScreen.xib */,
@@ -220,7 +220,7 @@
 			files = (
 				00C2B40B1B2EE5D900FA25AA /* SecondViewController.swift in Sources */,
 				005F6A171B29A7EF00E205F8 /* ViewController.swift in Sources */,
-				00C2B40D1B2EE74D00FA25AA /* 3rdViewController.swift in Sources */,
+				00DF4FD41B31F0C7003F054B /* ThirdViewController.swift in Sources */,
 				005F6A151B29A7EF00E205F8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

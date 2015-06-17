@@ -13,6 +13,23 @@ while counter <= 5 {
 
 
 
+var stars = ""
+
+var j = 0
+
+while(j < input){
+    
+    stars = stars + "*"
+    
+    j++
+    
+}
+
+println(stars)
+
+
+
+
 let names = ["Anna", "Alex", "Brian", "Jack"]
 
 // initial; continue until;

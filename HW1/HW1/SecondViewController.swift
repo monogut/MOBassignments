@@ -10,26 +10,21 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    @IBOutlet weak var textadd: UITextField!
 
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    @IBOutlet weak var displaylabel: UILabel!
     
+    var sum = 0
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func addbutton(sender: AnyObject) {
+        
+        var numberentered = textadd.text!.toInt()!
+        
+        sum = numberentered + sum
+        
+        textadd.text = ""
+        
+        displaylabel.text = String(sum)
+        
     }
-    */
-
 }
